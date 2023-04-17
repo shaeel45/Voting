@@ -1,0 +1,130 @@
+#sorry{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    display: none;
+    margin-top: 200px;
+}
+#Form{
+    display: none;
+    
+}
+
+.Outline-1{
+    background-color: rgb(201, 223, 223);
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    margin: 0px auto;
+    margin-top: 80px;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+
+    
+}
+
+
+.welcome h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: -30px;
+    
+
+    
+}
+
+.fill input[type="email"],
+.fill input[type="text"],
+.fill input[type="tel"],
+.fill label select option,
+.fill input[type="number"]
+{
+    
+    display: block;
+    margin-bottom: 4px;
+    background-color: rgb(202, 238, 218);
+    width: 75%;
+    text-align: center;
+    height: 35px;
+    border-radius: 30px;
+    border: 0px;
+    border-color: grey;
+    margin-left: 40px;
+    
+    
+}
+
+
+.chose{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chose{
+    
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 15px;
+}
+
+
+
+    
+.link{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: -9px;
+    margin-top: -25px;
+}
+    
+.submit input[type="submit"]{
+   width: 100%;
+   height: 25px;
+   border: none;
+   /* padding: 10px; */
+   font-size: 15px;
+   color: rgb(244, 246, 248);
+   cursor: pointer;
+   transition: .3s ease background-color;
+   text-align: center;
+    /* margin-top: 25px; */
+   background-color: cadetblue;
+}
+.submit input[type="submit"]:hover{
+    background-color: rgb(198, 219, 236);
+}
+
+#success{
+    width: 75%;
+    background-color: cadetblue;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 25px;
+    
+}
+
+#congo{
+    width: 75%;
+    background-color: rgb(224, 155, 77);
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 50px;
+    color: white;
+    display: none;
+    
+}
+
+.party{
+   font-size: 9px;
+   
+}
