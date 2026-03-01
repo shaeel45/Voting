@@ -1,5 +1,13 @@
 
-var num=(prompt("Enter Your Age For Voting"));
+var ageInput = prompt("Enter Your Age For Voting");
+var num;
+if (ageInput !== null) {
+  num = parseInt(ageInput, 10);
+  if (isNaN(num)) {
+    alert("Please enter a valid number");
+    num = null;
+  }
+}
   if(num<18 || num>60){
     document.getElementById('sorry').style.display='block'
     // document.write("Invalid Age")
