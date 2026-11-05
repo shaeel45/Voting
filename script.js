@@ -17,7 +17,7 @@ if (ageInput !== null) {
     // document.write("Welcome")
   }
   if (num<18) {
-    document.getElementsById('sorry').style.display='block'
+    document.getElementById('sorry').style.display='block'
      }  
 
      var Form = Form
